@@ -1,0 +1,5 @@
+- I filtered the packets to only `http`.
+- Then while browsing casually the IPs, I saw that in between there were some different IPs exchangig packets.
+- When I went through them I found this suspicious text *Enter here later when you are free*.
+- Since it had the `{}` which even the flags have I thought maybe it was ROT13 encrypted.
+- Then I used ROT13 to decrypt in cyberchef and got the flag.
