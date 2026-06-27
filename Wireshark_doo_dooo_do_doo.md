@@ -1,5 +1,5 @@
 - I filtered the packets to only `http`.
-- Then while browsing casually the IPs, I saw that in between there were some different IPs exchangig packets.
-- When I went through them I found this suspicious text *Enter here later when you are free*.
+- Then while browsing casually the IPs, I saw that in between there were some different IPs exchanging packets.
+- When I went through them I found this suspicious text `Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}`.
 - Since it had the `{}` which even the flags have I thought maybe it was ROT13 encrypted.
-- Then I used ROT13 to decrypt in cyberchef and got the flag.
+- Then I used ROT13 to decrypt in cyberchef and got `The flag is picoCTF{p33kab00_1_s33_u_deadbeef}`.
