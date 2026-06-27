@@ -1,0 +1,7 @@
+- Since the name itself was close to **Trivial File Transfer Protocol** I filtered the file with `tftp`.
+- First few packets looked like they had something, later on the packets looked same and I didnt feel like anything interesting was there later on.
+- While looking at them I found this text in one of them- `VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF`.
+- Usually the packets will have some random charecters and then some dot spaces between them. This whole text was together.
+- I put this to cyberchef and to my luck the ROT13 converter which I forgot to remove after the previous challenge was still there.
+- It automatically converted it to `IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS`. Which was a hint.
+- I had found some png files and some program files exchanged in some packets before.
