@@ -18,6 +18,9 @@ File Access Date/Time           : 2026:06:28 04:09:56+00:00
 File Inode Change Date/Time     : 2026:06:28 04:10:54+00:00
 File Permissions                : -rwxrwxrwx
 Error                           : Unknown file type
+```
+- It shows **unknown file type** because `exiftool` cannot understand disk image file type.
+```
 siddhanth@LAPTOP-THRNGN31:/mnt/c/users/Anvitha/OneDrive/Desktop$ srch_strings dds1-alpine.flag.img | grep picoCTF
   SAY picoCTF{f0r3ns1c4t0r_n30phyt3_5e56e786}
 siddhanth@LAPTOP-THRNGN31:/mnt/c/users/Anvitha/OneDrive/Desktop$
